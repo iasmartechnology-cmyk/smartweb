@@ -3,61 +3,120 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- FAVICON -->
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect x='18' y='18' width='64' height='64' rx='4' transform='rotate(45 50 50)' fill='none' stroke='%230e0e0e' stroke-width='6'/><line x1='30' y1='50' x2='70' y2='50' stroke='%23c9a96e' stroke-width='5'/><line x1='50' y1='30' x2='50' y2='70' stroke='%23c9a96e' stroke-width='5'/><circle cx='50' cy='50' r='6' fill='%237a5c44'/></svg>">
 
-<!-- SEO PRIMARY -->
+<!--
+  SEO: sustituye https://iaradiance.com/ por tu dominio real en:
+  - link rel="canonical"
+  - og:url / og:image / twitter:image
+  - JSON-LD (url, logo, image)
+  - robots.txt y sitemap.xml
+-->
 <title>Diseño Web Profesional Rápido y Económico | IARadiance</title>
-<meta name="description" content="IARadiance — webs profesionales para negocios en 3–5 días y a precio reducido. Diseño personalizado, optimizado para móvil y Google. Solicita presupuesto gratis sin compromiso.">
-<meta name="keywords" content="diseño web profesional, páginas web baratas, webs para negocios locales, web rápida económica, crear página web empresa, diseño web España, web para autónomos, presencia digital negocios, agencia web económica, página web en días, web para restaurante, web para peluquería, web para clínica, web para autónomo, diseño web sin contrato, web barata profesional, IARadiance, agencia digital inteligente">
+<meta name="description" content="Diseño web profesional para negocios locales y autónomos en 3–5 días. Páginas web baratas, personalizadas, optimizadas para Google y móvil. Presupuesto gratis.">
 <meta name="author" content="IARadiance">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="googlebot" content="index, follow">
+<meta name="theme-color" content="#0e0e0e">
+<meta name="geo.region" content="ES">
+<meta name="geo.placename" content="España">
+<link rel="canonical" href="https://iaradiance.com/">
+<link rel="alternate" hreflang="es" href="https://iaradiance.com/">
+<link rel="alternate" hreflang="x-default" href="https://iaradiance.com/">
 
-<!-- OPEN GRAPH (redes sociales + Google Preview) -->
+<!-- OPEN GRAPH -->
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://iaradiance.com/">
 <meta property="og:title" content="Diseño Web Profesional Rápido y Económico | IARadiance">
-<meta property="og:description" content="Tu web lista en 3–5 días. Diseño profesional a precio justo para negocios que quieren presencia digital sin esperas ni costes inflados.">
+<meta property="og:description" content="Tu página web profesional lista en 3–5 días. Diseño personalizado a precio justo para negocios locales, autónomos y comercios.">
 <meta property="og:locale" content="es_ES">
 <meta property="og:site_name" content="IARadiance">
+<meta property="og:image" content="https://iaradiance.com/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="IARadiance — diseño web profesional para negocios">
 
 <!-- TWITTER CARD -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Diseño Web Profesional Rápido y Económico | IARadiance">
-<meta name="twitter:description" content="Tu web lista en 3–5 días. Diseño profesional a precio justo para negocios.">
+<meta name="twitter:description" content="Páginas web profesionales en 3–5 días. Precio justo, SEO incluido y adaptadas a móvil.">
+<meta name="twitter:image" content="https://iaradiance.com/og-image.jpg">
+<meta name="twitter:image:alt" content="IARadiance — diseño web profesional">
 
-<!-- SCHEMA.ORG STRUCTURED DATA -->
+<!-- SCHEMA: WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "IARadiance",
+  "alternateName": ["IA Radiance", "IARadiance Diseño Web"],
+  "url": "https://iaradiance.com/",
+  "description": "Diseño web profesional para negocios locales y autónomos. Páginas web rápidas, económicas y optimizadas para Google.",
+  "inLanguage": "es-ES",
+  "publisher": {
+    "@type": "Organization",
+    "name": "IARadiance",
+    "email": "iasmartechnology@gmail.com"
+  }
+}
+</script>
+
+<!-- SCHEMA: ProfessionalService -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
+  "@id": "https://iaradiance.com/#negocio",
   "name": "IARadiance",
-  "description": "Agencia de diseño web profesional para negocios. Webs personalizadas con entrega en 3–5 días a precio reducido. Especialistas en webs para negocios locales, autónomos, restaurantes, clínicas y comercios.",
+  "url": "https://iaradiance.com/",
+  "logo": "https://iaradiance.com/logo.png",
+  "image": "https://iaradiance.com/og-image.jpg",
+  "description": "Agencia de diseño web profesional para negocios. Webs personalizadas con entrega en 3–5 días a precio reducido. Especialistas en webs para negocios locales, autónomos, restaurantes, clínicas y comercios en España.",
   "email": "iasmartechnology@gmail.com",
-  "priceRange": "€",
-  "areaServed": "ES",
-  "serviceType": "Diseño Web",
+  "priceRange": "€–€€",
+  "currenciesAccepted": "EUR",
+  "areaServed": {
+    "@type": "Country",
+    "name": "España"
+  },
+  "serviceType": ["Diseño web", "Creación de páginas web", "SEO básico", "Mantenimiento web"],
+  "knowsAbout": [
+    "diseño web profesional",
+    "páginas web baratas",
+    "webs para negocios locales",
+    "páginas web para autónomos",
+    "posicionamiento en Google"
+  ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Servicios de diseño web",
     "itemListElement": [
       {
         "@type": "Offer",
+        "name": "Web de presentación",
+        "price": "60",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
         "itemOffered": {
           "@type": "Service",
           "name": "Web de presentación",
-          "description": "Página web de una sola página para negocios locales y autónomos"
-        },
-        "price": "60",
-        "priceCurrency": "EUR"
+          "description": "Página web de una sola página para negocios locales y autónomos, optimizada para móvil y Google"
+        }
       },
       {
         "@type": "Offer",
+        "name": "Web completa",
+        "price": "180",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
         "itemOffered": {
           "@type": "Service",
-          "name": "Web completa",
+          "name": "Web completa multipágina",
           "description": "Sitio web multipágina con secciones, galería y formulario de contacto"
-        },
-        "price": "180",
-        "priceCurrency": "EUR"
+        }
       }
     ]
   },
@@ -65,12 +124,106 @@
     "@type": "ContactPoint",
     "email": "iasmartechnology@gmail.com",
     "contactType": "customer service",
-    "availableLanguage": "Spanish"
+    "availableLanguage": ["es", "Spanish"],
+    "areaServed": "ES"
   }
 }
 </script>
 
+<!-- SCHEMA: FAQPage (rich results en Google) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta una página web profesional?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En IARadiance las webs de presentación empiezan desde 60€ y las webs completas multipágina desde 180€. Son precios mucho más bajos que los de una agencia tradicional. Siempre enviamos un presupuesto personalizado y sin compromiso antes de empezar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto tiempo tarda en entregarse una web profesional?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Entre 3 y 5 días laborables desde que recibimos los detalles de tu negocio. Las webs más sencillas pueden estar listas en 24–48 horas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿La web aparecerá en Google?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Todas las webs de IARadiance incluyen SEO básico: título y descripción, estructura semántica, velocidad de carga, etiquetas correctas y diseño responsive, factores clave para el posicionamiento en Google."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Hacéis páginas web para negocios locales y autónomos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Estamos especializados en diseño web para negocios locales, autónomos, restaurantes, peluquerías, clínicas y comercios que necesitan una presencia digital profesional a precio asequible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Necesito saber de tecnología para tener una página web?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Solo necesitas contar tu negocio por correo. Nos encargamos del diseño, la programación, la publicación y la configuración. Tú solo apruebas el resultado."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo pedir cambios una vez entregada la web?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Incluimos rondas de revisión hasta que estés satisfecho. Después puedes contratar mantenimiento mensual para actualizaciones de contenido."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- SCHEMA: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Inicio",
+      "item": "https://iaradiance.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Servicios de diseño web",
+      "item": "https://iaradiance.com/#servicios"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Preguntas frecuentes",
+      "item": "https://iaradiance.com/#faq"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Contacto",
+      "item": "https://iaradiance.com/#contacto"
+    }
+  ]
+}
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -95,6 +248,19 @@
     overflow-x: hidden;
   }
 
+  .skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    background: var(--black);
+    color: var(--white);
+    padding: 0.75rem 1.25rem;
+    z-index: 10000;
+    font-size: 0.85rem;
+    text-decoration: none;
+  }
+  .skip-link:focus { left: 1rem; top: 1rem; }
+
   nav {
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -103,6 +269,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1.5rem;
     mix-blend-mode: multiply;
   }
   .nav-logo {
@@ -112,6 +279,23 @@
     color: var(--black);
     text-decoration: none;
   }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    list-style: none;
+  }
+  .nav-links a {
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--black);
+    text-decoration: none;
+    opacity: 0.75;
+    transition: opacity 0.2s;
+  }
+  .nav-links a:hover { opacity: 1; }
   .nav-cta {
     font-size: 0.78rem;
     font-weight: 500;
@@ -125,7 +309,6 @@
   }
   .nav-cta:hover { opacity: 0.5; }
 
-  /* HERO */
   .hero {
     min-height: 100vh;
     display: grid;
@@ -160,7 +343,7 @@
     font-size: 1rem;
     line-height: 1.8;
     color: var(--mid);
-    max-width: 420px;
+    max-width: 440px;
     margin-bottom: 3rem;
   }
   .hero-btn {
@@ -211,6 +394,7 @@
     color: var(--black);
     line-height: 1;
     margin-bottom: 0.4rem;
+    transition: color 0.3s;
   }
   .stat-label {
     font-size: 0.78rem;
@@ -226,7 +410,6 @@
     margin: 0.8rem 0;
   }
 
-  /* MARQUEE */
   .marquee-wrap {
     background: var(--black);
     overflow: hidden;
@@ -235,7 +418,7 @@
   }
   .marquee-inner {
     display: inline-block;
-    animation: marquee 20s linear infinite;
+    animation: marquee 22s linear infinite;
     font-size: 0.72rem;
     font-weight: 500;
     letter-spacing: 0.22em;
@@ -256,7 +439,6 @@
     vertical-align: middle;
   }
 
-  /* SECCIONES */
   .section { padding: 8rem 5vw; }
   .section-header {
     display: flex;
@@ -274,9 +456,26 @@
     font-family: 'Playfair Display', serif;
     font-size: clamp(1.8rem, 3.5vw, 2.8rem);
     color: var(--black);
+    position: relative;
+    display: inline-block;
+  }
+  .section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -8px; left: 0;
+    width: 0; height: 2px;
+    background: var(--accent);
+    transition: width 0.6s ease;
+  }
+  .section-header.visible .section-title::after { width: 100%; }
+  .section-intro {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--mid);
+    max-width: 640px;
+    margin: -3rem 0 3.5rem;
   }
 
-  /* SERVICIOS */
   .services-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -287,10 +486,15 @@
   .service-card {
     background: var(--white);
     padding: 2.8rem 2.2rem;
-    transition: background 0.3s;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+    will-change: transform;
     cursor: default;
   }
-  .service-card:hover { background: var(--cream); }
+  .service-card:hover {
+    background: var(--cream);
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(122,92,68,0.12);
+  }
   .service-icon {
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
@@ -307,8 +511,15 @@
     line-height: 1.75;
     color: var(--mid);
   }
+  .service-price {
+    margin-top: 1.4rem;
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--brown);
+  }
 
-  /* PROCESO */
   .process-section {
     background: var(--black);
     padding: 8rem 5vw;
@@ -350,7 +561,6 @@
     color: rgba(245,242,236,0.6);
   }
 
-  /* VENTAJAS */
   .ventajas-section {
     padding: 8rem 5vw;
     background: var(--cream);
@@ -387,6 +597,7 @@
     align-items: center;
     padding: 1.8rem 0;
     border-bottom: 1px solid var(--light);
+    gap: 1rem;
   }
   .ventaja-label {
     font-family: 'Playfair Display', serif;
@@ -401,10 +612,32 @@
     background: var(--black);
     color: var(--white);
     padding: 0.4rem 1rem;
+    white-space: nowrap;
   }
   .ventaja-badge.accent { background: var(--accent); color: var(--black); }
 
-  /* FAQ SEO */
+  .sectores-section { padding: 8rem 5vw; }
+  .sectores-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+  .sector-item {
+    border-top: 2px solid var(--accent);
+    padding: 1.8rem 0 0;
+  }
+  .sector-item h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    margin-bottom: 0.7rem;
+    color: var(--black);
+  }
+  .sector-item p {
+    font-size: 0.88rem;
+    line-height: 1.75;
+    color: var(--mid);
+  }
+
   .faq-section { padding: 8rem 5vw; }
   .faq-grid {
     display: grid;
@@ -428,7 +661,6 @@
     color: var(--mid);
   }
 
-  /* CTA */
   .cta-section {
     padding: 10rem 5vw;
     display: grid;
@@ -472,21 +704,56 @@
   }
   .btn-primary:hover { background: var(--brown); }
 
-  /* FOOTER */
   footer {
     background: var(--black);
-    padding: 3rem 5vw;
+    padding: 3.5rem 5vw 2.5rem;
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr;
+    gap: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .footer-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    color: var(--white);
+    font-style: italic;
+    display: inline-block;
+    margin-bottom: 0.8rem;
+    text-decoration: none;
+  }
+  .footer-about {
+    font-size: 0.85rem;
+    line-height: 1.7;
+    color: rgba(245,242,236,0.5);
+    max-width: 320px;
+  }
+  .footer-col h3 {
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 1.1rem;
+  }
+  .footer-col ul { list-style: none; }
+  .footer-col li { margin-bottom: 0.55rem; }
+  .footer-col a {
+    font-size: 0.85rem;
+    color: rgba(245,242,236,0.55);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .footer-col a:hover { color: var(--accent); }
+  .footer-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
-  }
-  .footer-logo {
-    font-family: 'Playfair Display', serif;
-    font-size: 1rem;
-    color: var(--white);
-    font-style: italic;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding-top: 1.5rem;
   }
   .footer-email {
     font-size: 0.78rem;
@@ -502,7 +769,6 @@
     letter-spacing: 0.05em;
   }
 
-  /* CURSOR PERSONALIZADO */
   body { cursor: none; }
   .cursor {
     width: 10px; height: 10px;
@@ -522,38 +788,7 @@
     z-index: 9998;
     transition: left 0.12s ease, top 0.12s ease, transform 0.3s ease, opacity 0.3s;
   }
-  a:hover ~ .cursor, button:hover ~ .cursor { transform: scale(2); }
 
-  /* COUNTER ANIMADO */
-  .stat-num { transition: color 0.3s; }
-
-  /* HOVER TILT en service cards */
-  .service-card {
-    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
-    will-change: transform;
-  }
-  .service-card:hover {
-    background: var(--cream);
-    transform: translateY(-6px);
-    box-shadow: 0 20px 40px rgba(122,92,68,0.12);
-  }
-
-  /* LÍNEA ANIMADA bajo section-title */
-  .section-title {
-    position: relative;
-    display: inline-block;
-  }
-  .section-title::after {
-    content: '';
-    position: absolute;
-    bottom: -8px; left: 0;
-    width: 0; height: 2px;
-    background: var(--accent);
-    transition: width 0.6s ease;
-  }
-  .section-header.visible .section-title::after { width: 100%; }
-
-  /* BENEFICIOS */
   .beneficios-section {
     padding: 8rem 5vw;
     background: var(--black);
@@ -574,7 +809,6 @@
   }
   .beneficios-section .section-title { color: var(--white); }
   .beneficios-section .section-num { color: var(--brown); }
-
   .beneficios-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -583,7 +817,6 @@
     position: relative;
     z-index: 2;
   }
-
   .beneficio-card {
     border: 1px solid rgba(255,255,255,0.08);
     padding: 2.5rem 2rem;
@@ -604,7 +837,6 @@
   }
   .beneficio-card:hover { border-color: rgba(201,169,110,0.3); transform: translateY(-4px); }
   .beneficio-card:hover::before { transform: scaleX(1); }
-
   .beneficio-num {
     font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
@@ -631,15 +863,12 @@
     filter: grayscale(0.3);
   }
 
-  /* ANIMACIONES */
   .reveal {
     opacity: 0;
     transform: translateY(24px);
     transition: opacity 0.7s ease, transform 0.7s ease;
   }
   .reveal.visible { opacity: 1; transform: none; }
-
-  /* STAGGER para hijos */
   .reveal-child { opacity: 0; transform: translateY(20px); transition: opacity 0.5s ease, transform 0.5s ease; }
   .reveal-child.visible { opacity: 1; transform: none; }
   .reveal-child:nth-child(1) { transition-delay: 0.1s; }
@@ -649,7 +878,16 @@
   .reveal-child:nth-child(5) { transition-delay: 0.5s; }
   .reveal-child:nth-child(6) { transition-delay: 0.6s; }
 
-  /* RESPONSIVE */
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .marquee-inner { animation: none; }
+    .reveal, .reveal-child {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+  }
+
   @media (max-width: 900px) {
     .hero { grid-template-columns: 1fr; min-height: auto; }
     .hero-right { min-height: 300px; padding: 3rem 2rem; }
@@ -660,14 +898,16 @@
     .faq-grid { grid-template-columns: 1fr; }
     .cta-section { grid-template-columns: 1fr; }
     .beneficios-grid { grid-template-columns: 1fr 1fr; }
+    .sectores-grid { grid-template-columns: 1fr 1fr; }
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+    .nav-links { display: none; }
     nav { padding: 1.2rem 1.5rem; }
-    .section, .process-section, .ventajas-section, .faq-section, .cta-section, .beneficios-section { padding: 5rem 1.5rem; }
+    .section, .process-section, .ventajas-section, .faq-section, .cta-section, .beneficios-section, .sectores-section { padding: 5rem 1.5rem; }
   }
   @media (max-width: 560px) {
     .process-steps { grid-template-columns: 1fr; }
-    .beneficios-grid { grid-template-columns: 1fr; }
+    .beneficios-grid, .sectores-grid, .footer-grid { grid-template-columns: 1fr; }
     .hero-stats { gap: 2rem; }
-    footer { flex-direction: column; align-items: flex-start; }
     body { cursor: auto; }
     .cursor, .cursor-ring { display: none; }
   }
@@ -675,17 +915,29 @@
 </head>
 <body>
 
-<nav aria-label="Navegación principal">
-  <a href="#" class="nav-logo">IARadiance</a>
-  <a href="#contacto" class="nav-cta">Solicitar presupuesto</a>
-</nav>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<header>
+  <nav aria-label="Navegación principal">
+    <a href="/" class="nav-logo" title="IARadiance — diseño web profesional">IARadiance</a>
+    <ul class="nav-links">
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#proceso">Proceso</a></li>
+      <li><a href="#sectores">Sectores</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <a href="#contacto" class="nav-cta">Solicitar presupuesto</a>
+  </nav>
+</header>
+
+<main id="contenido">
 
 <!-- HERO -->
 <section class="hero" aria-labelledby="hero-heading">
   <div class="hero-left">
-    <p class="hero-tag">Agencia de diseño web · Entrega en días · Precio justo</p>
-    <h1 class="hero-title" id="hero-heading">Tu web,<br>lista en <em>días,</em><br>no en meses.</h1>
-    <p class="hero-desc">Webs profesionales para negocios locales, autónomos y comercios. Diseño personalizado, optimizado para Google y adaptado a móvil. Sin esperas, sin costes inflados, sin contratos.</p>
+    <p class="hero-tag">Diseño web profesional · Entrega en 3–5 días · Precio justo</p>
+    <h1 class="hero-title" id="hero-heading">Diseño web profesional,<br>listo en <em>días,</em><br>no en meses.</h1>
+    <p class="hero-desc">En <strong>IARadiance</strong> creamos páginas web profesionales para negocios locales, autónomos y comercios. Diseño personalizado, optimizado para Google y adaptado a móvil. Sin esperas, sin costes inflados y sin contratos largos.</p>
     <a href="#contacto" class="hero-btn">Pedir presupuesto gratis</a>
   </div>
   <div class="hero-right">
@@ -713,7 +965,7 @@
 <!-- MARQUEE -->
 <div class="marquee-wrap" aria-hidden="true">
   <div class="marquee-inner">
-    Diseño web profesional <span class="marquee-dot"></span> Entrega en 3–5 días <span class="marquee-dot"></span> Precio justo <span class="marquee-dot"></span> IARadiance <span class="marquee-dot"></span> Webs para negocios locales <span class="marquee-dot"></span> Optimizado para Google <span class="marquee-dot"></span> Adaptado a móvil <span class="marquee-dot"></span> Sin contratos <span class="marquee-dot"></span> Diseño web profesional <span class="marquee-dot"></span> Entrega en 3–5 días <span class="marquee-dot"></span> Precio justo <span class="marquee-dot"></span> IARadiance <span class="marquee-dot"></span> Webs para negocios locales <span class="marquee-dot"></span> Optimizado para Google <span class="marquee-dot"></span> Adaptado a móvil <span class="marquee-dot"></span> Sin contratos <span class="marquee-dot"></span>
+    Diseño web profesional <span class="marquee-dot"></span> Páginas web baratas <span class="marquee-dot"></span> Entrega en 3–5 días <span class="marquee-dot"></span> Webs para negocios locales <span class="marquee-dot"></span> Optimizado para Google <span class="marquee-dot"></span> Adaptado a móvil <span class="marquee-dot"></span> Sin contratos <span class="marquee-dot"></span> IARadiance <span class="marquee-dot"></span> Diseño web profesional <span class="marquee-dot"></span> Páginas web baratas <span class="marquee-dot"></span> Entrega en 3–5 días <span class="marquee-dot"></span> Webs para negocios locales <span class="marquee-dot"></span> Optimizado para Google <span class="marquee-dot"></span> Adaptado a móvil <span class="marquee-dot"></span> Sin contratos <span class="marquee-dot"></span> IARadiance <span class="marquee-dot"></span>
   </div>
 </div>
 
@@ -721,23 +973,27 @@
 <section class="section" id="servicios" aria-labelledby="servicios-heading">
   <div class="section-header reveal">
     <span class="section-num" aria-hidden="true">01</span>
-    <h2 class="section-title" id="servicios-heading">Qué ofrezco</h2>
+    <h2 class="section-title" id="servicios-heading">Servicios de diseño web</h2>
   </div>
+  <p class="section-intro reveal">Elige el tipo de página web que necesita tu negocio. Todas incluyen diseño responsive, SEO básico y entrega rápida.</p>
   <div class="services-grid">
     <article class="service-card reveal-child">
       <span class="service-icon" aria-hidden="true">◻</span>
       <h3 class="service-name">Web de presentación</h3>
-      <p class="service-desc">Una página clara y cuidada que explica quién eres, qué ofreces y cómo contactarte. Perfecta para negocios locales, autónomos y profesionales que necesitan presencia digital rápida.</p>
+      <p class="service-desc">Una página web clara y cuidada que explica quién eres, qué ofreces y cómo contactarte. Ideal si buscas una página web barata y profesional para autónomos o negocios locales.</p>
+      <p class="service-price">Desde 60 €</p>
     </article>
     <article class="service-card reveal-child">
       <span class="service-icon" aria-hidden="true">◈</span>
       <h3 class="service-name">Web completa multipágina</h3>
-      <p class="service-desc">Varias secciones, formulario de contacto, galería de trabajos o servicios detallados. Todo lo que necesita un negocio para generar confianza y captar clientes desde el primer clic.</p>
+      <p class="service-desc">Varias secciones, formulario de contacto, galería y servicios detallados. Una web profesional completa para generar confianza y captar clientes desde Google.</p>
+      <p class="service-price">Desde 180 €</p>
     </article>
     <article class="service-card reveal-child">
       <span class="service-icon" aria-hidden="true">◉</span>
       <h3 class="service-name">Mantenimiento mensual</h3>
-      <p class="service-desc">Actualizaciones de contenido, cambios de texto o imágenes y soporte continuo. Tu web siempre al día, sin que tengas que preocuparte de nada técnico.</p>
+      <p class="service-desc">Actualizaciones de contenido, cambios de texto o imágenes y soporte continuo. Tu página web siempre al día, sin preocuparte de lo técnico.</p>
+      <p class="service-price">Plan flexible</p>
     </article>
   </div>
 </section>
@@ -745,29 +1001,29 @@
 <!-- PROCESO -->
 <section class="process-section" id="proceso" aria-labelledby="proceso-heading">
   <div class="section-header reveal">
-    <span class="section-num" aria-hidden="true" style="color: var(--brown);">02</span>
-    <h2 class="section-title" id="proceso-heading">Cómo funciona</h2>
+    <span class="section-num" aria-hidden="true">02</span>
+    <h2 class="section-title" id="proceso-heading">Cómo crear tu página web</h2>
   </div>
   <div class="process-steps">
     <div class="step reveal">
       <span class="step-n" aria-hidden="true">01</span>
-      <p class="step-title">Cuéntame tu negocio</p>
-      <p class="step-desc">Envíame un correo a <strong style="color:var(--accent)">iasmartechnology@gmail.com</strong> con los detalles: tu sector, tus servicios, qué clientes tienes y qué quieres transmitir. Sin tecnicismos.</p>
+      <h3 class="step-title">Cuéntame tu negocio</h3>
+      <p class="step-desc">Envía un correo a <strong style="color:var(--accent)">iasmartechnology@gmail.com</strong> con tu sector, servicios y qué quieres transmitir. Sin tecnicismos.</p>
     </div>
     <div class="step reveal">
       <span class="step-n" aria-hidden="true">02</span>
-      <p class="step-title">Primera propuesta</p>
-      <p class="step-desc">En 24–48 horas tengo una primera versión de tu web lista para que la veas. Te enseño el avance antes de continuar.</p>
+      <h3 class="step-title">Primera propuesta</h3>
+      <p class="step-desc">En 24–48 horas tienes una primera versión de tu diseño web lista para revisar antes de continuar.</p>
     </div>
     <div class="step reveal">
       <span class="step-n" aria-hidden="true">03</span>
-      <p class="step-title">Ajustes y revisión</p>
-      <p class="step-desc">Hacemos los cambios que quieras: colores, textos, fotos. Hasta que estés completamente satisfecho con el resultado.</p>
+      <h3 class="step-title">Ajustes y revisión</h3>
+      <p class="step-desc">Colores, textos y fotos: hacemos los cambios que necesites hasta que el resultado te convenza.</p>
     </div>
     <div class="step reveal">
       <span class="step-n" aria-hidden="true">04</span>
-      <p class="step-title">Web publicada</p>
-      <p class="step-desc">Tu web está online, optimizada y lista para aparecer en Google. Te entrego accesos y te explico cómo gestionarla si lo necesitas.</p>
+      <h3 class="step-title">Web publicada</h3>
+      <p class="step-desc">Tu página web queda online, optimizada para Google y lista para atraer clientes. Te entrego accesos y explicación básica.</p>
     </div>
   </div>
 </section>
@@ -776,8 +1032,8 @@
 <section class="ventajas-section" id="ventajas" aria-labelledby="ventajas-heading">
   <div class="ventajas-grid">
     <div class="ventajas-left reveal">
-      <h2 class="big-text" id="ventajas-heading">Por qué tiene <em>sentido</em> trabajar conmigo.</h2>
-      <p>No soy una agencia grande con estructuras de costes enormes. Trabajo directamente contigo, sin intermediarios, lo que se traduce en precios mucho más bajos y plazos de entrega imposibles para las agencias tradicionales.</p>
+      <h2 class="big-text" id="ventajas-heading">Por qué elegir <em>IARadiance</em> para tu diseño web.</h2>
+      <p>No somos una agencia grande con costes inflados. Trabajamos contigo de forma directa: páginas web económicas, plazos reales de 3–5 días y atención personalizada en toda España.</p>
     </div>
     <div class="ventajas-right reveal">
       <div class="ventaja-row">
@@ -790,7 +1046,7 @@
       </div>
       <div class="ventaja-row">
         <span class="ventaja-label">Diseño adaptado a móvil y tablet</span>
-        <span class="ventaja-badge">Siempre</span>
+        <span class="ventaja-badge">Responsive</span>
       </div>
       <div class="ventaja-row">
         <span class="ventaja-label">SEO básico incluido en todas las webs</span>
@@ -802,150 +1058,205 @@
       </div>
       <div class="ventaja-row">
         <span class="ventaja-label">Atención directa y personalizada</span>
-        <span class="ventaja-badge">Siempre disponible</span>
+        <span class="ventaja-badge">Cercana</span>
       </div>
     </div>
   </div>
 </section>
 
-<!-- BENEFICIOS DE TENER UNA WEB -->
-<section class="beneficios-section" id="beneficios" aria-labelledby="beneficios-heading">
+<!-- SECTORES (keywords long-tail) -->
+<section class="sectores-section" id="sectores" aria-labelledby="sectores-heading">
   <div class="section-header reveal">
-    <span class="section-num" aria-hidden="true" style="color:var(--brown);">03</span>
-    <h2 class="section-title" id="beneficios-heading" style="color:var(--white);">Por qué tu negocio <em style="color:var(--accent)">necesita</em> una web</h2>
+    <span class="section-num" aria-hidden="true">03</span>
+    <h2 class="section-title" id="sectores-heading">Webs para tu tipo de negocio</h2>
   </div>
-  <div class="beneficios-grid">
-    <div class="beneficio-card reveal-child">
-      <span class="beneficio-icon">🌐</span>
-      <div class="beneficio-num">01</div>
-      <h3 class="beneficio-title">Visibilidad las 24 horas</h3>
-      <p class="beneficio-desc">Tu negocio trabaja aunque tú no estés. Una web bien posicionada en Google atrae clientes nuevos cada día, incluso mientras duermes.</p>
-    </div>
-    <div class="beneficio-card reveal-child">
-      <span class="beneficio-icon">💼</span>
-      <div class="beneficio-num">02</div>
-      <h3 class="beneficio-title">Credibilidad y confianza</h3>
-      <p class="beneficio-desc">El 75% de los consumidores juzga la credibilidad de un negocio por su web. Sin web, muchos clientes potenciales simplemente no confían y van a la competencia.</p>
-    </div>
-    <div class="beneficio-card reveal-child">
-      <span class="beneficio-icon">📈</span>
-      <div class="beneficio-num">03</div>
-      <h3 class="beneficio-title">Más clientes, menos esfuerzo</h3>
-      <p class="beneficio-desc">Una web actualizada convierte visitas en consultas. Con la estructura correcta, los clientes encuentran lo que necesitan y contactan sin fricciones.</p>
-    </div>
-    <div class="beneficio-card reveal-child">
-      <span class="beneficio-icon">📱</span>
-      <div class="beneficio-num">04</div>
-      <h3 class="beneficio-title">Adaptada a móvil</h3>
-      <p class="beneficio-desc">Más del 60% del tráfico web viene de móviles. Una web moderna se ve perfecta en cualquier dispositivo, mejorando la experiencia del usuario y tu posición en Google.</p>
-    </div>
-    <div class="beneficio-card reveal-child">
-      <span class="beneficio-icon">🚀</span>
-      <div class="beneficio-num">05</div>
-      <h3 class="beneficio-title">Ventaja sobre la competencia</h3>
-      <p class="beneficio-desc">Muchos negocios locales todavía no tienen web o la tienen anticuada. Aparecer en Google antes que ellos es una ventaja competitiva real y tangible.</p>
-    </div>
-    <div class="beneficio-card reveal-child">
-      <span class="beneficio-icon">💡</span>
-      <div class="beneficio-num">06</div>
-      <h3 class="beneficio-title">Tu mejor vendedor</h3>
-      <p class="beneficio-desc">Una web bien diseñada explica tus servicios, resuelve dudas y convence mejor que cualquier folleto. Es tu vendedor más barato y más eficiente.</p>
-    </div>
+  <p class="section-intro reveal">Diseño web adaptado a cada sector: textos claros, estructura pensada para convertir visitas en contactos y presencia profesional en Google.</p>
+  <div class="sectores-grid">
+    <article class="sector-item reveal-child">
+      <h3>Web para restaurantes</h3>
+      <p>Carta, horarios, ubicación y reservas a un clic. Ideal para que te encuentren en búsquedas locales.</p>
+    </article>
+    <article class="sector-item reveal-child">
+      <h3>Web para peluquerías</h3>
+      <p>Servicios, precios y contacto claro. Una página web profesional que transmite estilo y confianza.</p>
+    </article>
+    <article class="sector-item reveal-child">
+      <h3>Web para clínicas</h3>
+      <p>Tratamientos, equipo y formulario de cita. Diseño serio y accesible para pacientes nuevos.</p>
+    </article>
+    <article class="sector-item reveal-child">
+      <h3>Web para autónomos</h3>
+      <p>Presencia digital rápida y económica para freelancers y profesionales que quieren más clientes.</p>
+    </article>
   </div>
 </section>
 
-<!-- FAQ (SEO: pregunta-respuesta indexable) -->
-<section class="faq-section" id="faq" aria-labelledby="faq-heading">
+<!-- BENEFICIOS -->
+<section class="beneficios-section" id="beneficios" aria-labelledby="beneficios-heading">
   <div class="section-header reveal">
     <span class="section-num" aria-hidden="true">04</span>
-    <h2 class="section-title" id="faq-heading">Preguntas frecuentes</h2>
+    <h2 class="section-title" id="beneficios-heading" style="color:var(--white);">Por qué tu negocio <em style="color:var(--accent)">necesita</em> una web</h2>
+  </div>
+  <div class="beneficios-grid">
+    <article class="beneficio-card reveal-child">
+      <span class="beneficio-icon" aria-hidden="true">🌐</span>
+      <div class="beneficio-num" aria-hidden="true">01</div>
+      <h3 class="beneficio-title">Visibilidad las 24 horas</h3>
+      <p class="beneficio-desc">Tu negocio trabaja aunque tú no estés. Una web bien posicionada en Google atrae clientes nuevos cada día.</p>
+    </article>
+    <article class="beneficio-card reveal-child">
+      <span class="beneficio-icon" aria-hidden="true">💼</span>
+      <div class="beneficio-num" aria-hidden="true">02</div>
+      <h3 class="beneficio-title">Credibilidad y confianza</h3>
+      <p class="beneficio-desc">La mayoría de consumidores juzga la seriedad de un negocio por su web. Sin página web, muchos se van a la competencia.</p>
+    </article>
+    <article class="beneficio-card reveal-child">
+      <span class="beneficio-icon" aria-hidden="true">📈</span>
+      <div class="beneficio-num" aria-hidden="true">03</div>
+      <h3 class="beneficio-title">Más clientes, menos esfuerzo</h3>
+      <p class="beneficio-desc">Una web bien estructurada convierte visitas en consultas: el cliente encuentra lo que busca y contacta sin fricción.</p>
+    </article>
+    <article class="beneficio-card reveal-child">
+      <span class="beneficio-icon" aria-hidden="true">📱</span>
+      <div class="beneficio-num" aria-hidden="true">04</div>
+      <h3 class="beneficio-title">Adaptada a móvil</h3>
+      <p class="beneficio-desc">Más del 60% del tráfico llega desde el móvil. Google prioriza webs responsive: mejor experiencia y mejor ranking.</p>
+    </article>
+    <article class="beneficio-card reveal-child">
+      <span class="beneficio-icon" aria-hidden="true">🚀</span>
+      <div class="beneficio-num" aria-hidden="true">05</div>
+      <h3 class="beneficio-title">Ventaja competitiva</h3>
+      <p class="beneficio-desc">Muchos negocios locales aún no tienen web o la tienen anticuada. Aparecer antes en Google es una ventaja real.</p>
+    </article>
+    <article class="beneficio-card reveal-child">
+      <span class="beneficio-icon" aria-hidden="true">💡</span>
+      <div class="beneficio-num" aria-hidden="true">06</div>
+      <h3 class="beneficio-title">Tu mejor vendedor</h3>
+      <p class="beneficio-desc">Una web profesional explica servicios, resuelve dudas y convence mejor que un folleto. Trabaja por ti todo el año.</p>
+    </article>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section" id="faq" aria-labelledby="faq-heading">
+  <div class="section-header reveal">
+    <span class="section-num" aria-hidden="true">05</span>
+    <h2 class="section-title" id="faq-heading">Preguntas frecuentes sobre diseño web</h2>
   </div>
   <div class="faq-grid">
-    <div class="faq-item reveal">
+    <article class="faq-item reveal">
       <h3 class="faq-q">¿Cuánto cuesta una página web profesional?</h3>
-      <p class="faq-a">Los precios varían según el tipo de web y lo que necesitas. Son bastante más bajos que los de una agencia tradicional. Siempre te envío un presupuesto personalizado y sin compromiso antes de empezar.</p>
-    </div>
-    <div class="faq-item reveal">
-      <h3 class="faq-q">¿Cuánto tiempo tardas en entregar una web?</h3>
-      <p class="faq-a">Entre 3 y 5 días laborables desde que me envías los detalles de tu negocio. Las webs más sencillas pueden estar listas en 24–48 horas. Sin esperas ni colas.</p>
-    </div>
-    <div class="faq-item reveal">
+      <p class="faq-a">En IARadiance las webs de presentación empiezan desde <strong>60 €</strong> y las webs completas multipágina desde <strong>180 €</strong>. Siempre enviamos un presupuesto personalizado y sin compromiso antes de empezar.</p>
+    </article>
+    <article class="faq-item reveal">
+      <h3 class="faq-q">¿Cuánto tiempo tarda en entregarse una web profesional?</h3>
+      <p class="faq-a">Entre 3 y 5 días laborables desde que recibimos los detalles de tu negocio. Las webs más sencillas pueden estar listas en 24–48 horas.</p>
+    </article>
+    <article class="faq-item reveal">
       <h3 class="faq-q">¿La web aparecerá en Google?</h3>
-      <p class="faq-a">Todas las webs incluyen optimización SEO básica: etiquetas correctas, velocidad de carga, estructura limpia y adaptación a móvil, que son los factores principales que Google valora para el posicionamiento.</p>
-    </div>
-    <div class="faq-item reveal">
-      <h3 class="faq-q">¿Necesito saber de tecnología para trabajar contigo?</h3>
-      <p class="faq-a">No. Solo necesitas contarme tu negocio por correo electrónico. Yo me encargo de todo lo técnico: diseño, programación, publicación y configuración. Tú solo apruebas el resultado.</p>
-    </div>
-    <div class="faq-item reveal">
-      <h3 class="faq-q">¿Qué información necesitas para empezar?</h3>
-      <p class="faq-a">Envíame un email a iasmartechnology@gmail.com con el nombre de tu negocio, los servicios que ofreces, tus clientes habituales y cualquier referencia visual que te guste. Con eso es suficiente para empezar.</p>
-    </div>
-    <div class="faq-item reveal">
+      <p class="faq-a">Sí. Incluimos SEO básico: título y meta descripción, estructura semántica, velocidad, etiquetas correctas y diseño móvil, factores clave para el posicionamiento en Google.</p>
+    </article>
+    <article class="faq-item reveal">
+      <h3 class="faq-q">¿Hacéis páginas web para negocios locales y autónomos?</h3>
+      <p class="faq-a">Sí. Estamos especializados en diseño web para negocios locales, autónomos, restaurantes, peluquerías, clínicas y comercios que necesitan presencia digital a precio asequible.</p>
+    </article>
+    <article class="faq-item reveal">
+      <h3 class="faq-q">¿Necesito saber de tecnología para tener una página web?</h3>
+      <p class="faq-a">No. Solo necesitas contarnos tu negocio por correo. Nos encargamos del diseño, la programación, la publicación y la configuración. Tú apruebas el resultado.</p>
+    </article>
+    <article class="faq-item reveal">
       <h3 class="faq-q">¿Puedo pedir cambios una vez entregada la web?</h3>
-      <p class="faq-a">Sí. Incluyo rondas de revisión hasta que estés satisfecho. Y si más adelante necesitas actualizar contenidos, tengo planes de mantenimiento mensual muy asequibles.</p>
-    </div>
+      <p class="faq-a">Sí. Incluimos rondas de revisión hasta que estés satisfecho. Después puedes contratar mantenimiento mensual para actualizaciones de contenido.</p>
+    </article>
   </div>
 </section>
 
 <!-- CTA CONTACTO -->
 <section class="cta-section" id="contacto" aria-labelledby="contacto-heading">
   <div class="cta-title reveal">
-    <h2 id="contacto-heading">Agendamos una<br>reunión sobre<br>tu <em>negocio.</em></h2>
+    <h2 id="contacto-heading">Pide tu presupuesto de<br>diseño web<br>sin <em>compromiso.</em></h2>
   </div>
   <div class="cta-right reveal">
-    <p>Envíame un correo con tu nombre y el tipo de negocio que tienes. A partir de ahí agendamos una reunión para conocer mejor tu proyecto, entender qué necesitas y ver cómo puedo ayudarte. Sin compromiso y sin tecnicismos.</p>
-    <p class="cta-email-hint">Te respondo en menos de 24 horas para coordinar día y hora.</p>
+    <p>Envía un correo con tu nombre y el tipo de negocio. Agendamos una reunión breve para entender qué necesitas y cómo podemos ayudarte con tu página web profesional. Sin tecnicismos y sin compromiso.</p>
+    <p class="cta-email-hint">Respuesta en menos de 24 horas para coordinar día y hora.</p>
     <div class="cta-actions">
-      <a href="mailto:iasmartechnology@gmail.com?subject=Quiero%20una%20web%20para%20mi%20negocio&body=Hola%2C%20me%20llamo%20...%20y%20tengo%20un%20negocio%20de%20...%20Me%20gustar%C3%ADa%20agendar%20una%20reuni%C3%B3n%20para%20hablar%20sobre%20mi%20web." class="btn-primary">Agendar reunión</a>
+      <a href="mailto:iasmartechnology@gmail.com?subject=Presupuesto%20dise%C3%B1o%20web%20profesional&body=Hola%2C%20me%20llamo%20...%20y%20tengo%20un%20negocio%20de%20...%20Me%20gustar%C3%ADa%20recibir%20un%20presupuesto%20para%20mi%20p%C3%A1gina%20web." class="btn-primary">Agendar reunión</a>
     </div>
   </div>
 </section>
 
-<!-- FOOTER -->
+</main>
+
 <footer>
-  <span class="footer-logo">IARadiance</span>
-  <a href="mailto:iasmartechnology@gmail.com" class="footer-email">iasmartechnology@gmail.com</a>
-  <span class="footer-copy">© 2026 IARadiance · Diseño web profesional</span>
+  <div class="footer-grid">
+    <div>
+      <a href="/" class="footer-logo">IARadiance</a>
+      <p class="footer-about">Diseño web profesional para negocios locales y autónomos en España. Páginas web rápidas, económicas y optimizadas para Google.</p>
+    </div>
+    <div class="footer-col">
+      <h3>Servicios</h3>
+      <ul>
+        <li><a href="#servicios">Diseño web profesional</a></li>
+        <li><a href="#servicios">Web de presentación</a></li>
+        <li><a href="#servicios">Web completa multipágina</a></li>
+        <li><a href="#sectores">Webs por sector</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Información</h3>
+      <ul>
+        <li><a href="#proceso">Cómo funciona</a></li>
+        <li><a href="#faq">Preguntas frecuentes</a></li>
+        <li><a href="#contacto">Pedir presupuesto</a></li>
+        <li><a href="mailto:iasmartechnology@gmail.com">Contacto por email</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <a href="mailto:iasmartechnology@gmail.com" class="footer-email">iasmartechnology@gmail.com</a>
+    <span class="footer-copy">© 2026 IARadiance · Diseño web profesional en España</span>
+  </div>
 </footer>
 
-<div class="cursor" id="cursor"></div>
-<div class="cursor-ring" id="cursorRing"></div>
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+<div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
 
 <script>
-  // CURSOR
   const cursor = document.getElementById('cursor');
   const ring = document.getElementById('cursorRing');
-  document.addEventListener('mousemove', e => {
-    cursor.style.left = e.clientX - 5 + 'px';
-    cursor.style.top = e.clientY - 5 + 'px';
-    ring.style.left = e.clientX - 18 + 'px';
-    ring.style.top = e.clientY - 18 + 'px';
-  });
-  document.querySelectorAll('a, button').forEach(el => {
-    el.addEventListener('mouseenter', () => { cursor.style.transform = 'scale(2.5)'; ring.style.transform = 'scale(1.4)'; ring.style.borderColor = 'var(--brown)'; });
-    el.addEventListener('mouseleave', () => { cursor.style.transform = 'scale(1)'; ring.style.transform = 'scale(1)'; ring.style.borderColor = 'var(--accent)'; });
-  });
+  const finePointer = window.matchMedia('(pointer: fine)').matches;
+  if (finePointer && cursor && ring) {
+    document.addEventListener('mousemove', e => {
+      cursor.style.left = e.clientX - 5 + 'px';
+      cursor.style.top = e.clientY - 5 + 'px';
+      ring.style.left = e.clientX - 18 + 'px';
+      ring.style.top = e.clientY - 18 + 'px';
+    });
+    document.querySelectorAll('a, button').forEach(el => {
+      el.addEventListener('mouseenter', () => { cursor.style.transform = 'scale(2.5)'; ring.style.transform = 'scale(1.4)'; ring.style.borderColor = 'var(--brown)'; });
+      el.addEventListener('mouseleave', () => { cursor.style.transform = 'scale(1)'; ring.style.transform = 'scale(1)'; ring.style.borderColor = 'var(--accent)'; });
+    });
+  } else {
+    document.body.style.cursor = 'auto';
+    if (cursor) cursor.style.display = 'none';
+    if (ring) ring.style.display = 'none';
+  }
 
-  // REVEAL + STAGGER
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(e => {
       if (e.isIntersecting) {
         e.target.classList.add('visible');
-        // stagger children
         e.target.querySelectorAll('.reveal-child').forEach(child => child.classList.add('visible'));
       }
     });
   }, { threshold: 0.08 });
   document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-  // stagger grids observados directamente
   const staggerObs = new IntersectionObserver((entries) => {
     entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
   }, { threshold: 0.08 });
   document.querySelectorAll('.reveal-child').forEach(el => staggerObs.observe(el));
 
-  // COUNTER ANIMADO en stats del hero
   function animateCount(el, target, suffix = '') {
     let start = 0; const dur = 1800;
     const step = timestamp => {

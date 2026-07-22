@@ -1,0 +1,5 @@
+# Sustituye https://iaradiance.com por tu dominio real
+User-agent: *
+Allow: /
+
+Sitemap: https://iaradiance.com/sitemap.xml
